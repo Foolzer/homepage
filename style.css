@@ -100,6 +100,15 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: start;
+    
+}
+
+.contact-info__item:focus{
+    color: var(--text-decoration-color);
+}
+
+.contact-info__item:hover{
+    color: var(--text-decoration-color);
 }
 
 .contact-info__item:not(:last-child) {
